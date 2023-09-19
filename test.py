@@ -12,3 +12,4 @@ def calculate_average(numbers):
 numbers = [10, 20, 30, 0, 50]
 result = calculate_average(numbers)
 print(f"The average is: {result}")
+# test
