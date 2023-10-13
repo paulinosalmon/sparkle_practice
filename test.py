@@ -8,6 +8,13 @@ def calculate_average(numbers):
     return average
 
 # Usage:
-numbers = [10, 20, 30, 0, 50]
-print("The average is:", calculate_average(numbers))
+try:
+    numbers = [10, 20, 30, 0, 50]
+    print("The average is:", calculate_average(numbers))
+except ZeroDivisionError:
+    print("List is empty")
+except TypeError:
+    print("Invalid input")
+except:
+    print("something went wrong")
 # test
