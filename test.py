@@ -4,12 +4,10 @@ def calculate_average(numbers):
     
     numbers = input number
     """
-    total = sum(numbers)
-    average = total / len(numbers)
+    average = sum(numbers) / len(numbers)
     return average
 
 # Usage:
 numbers = [10, 20, 30, 0, 50]
-result = calculate_average(numbers)
-print(f"The average is: {result}")
+print("The average is:", calculate_average(numbers))
 # test
